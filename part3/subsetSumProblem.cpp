@@ -18,7 +18,7 @@ int main()
         int sum = 0;
         for (int i = 0; i < N; i++)
         {
-            if (bit & (1 << i))
+            @ if (bit & (1 << i))
             {
                 sum += a[i];
             }
