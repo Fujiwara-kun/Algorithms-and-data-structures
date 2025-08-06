@@ -7,7 +7,7 @@ int func(int N)
     cout << "func(" << N << ")を呼び出しました!" << endl;
     if (N == 0)
         return 0;
-    // 再帰的に答えを求め出力
+    // 再帰的に答えを求め出力する
     int result = N + func(N - 1);
     cout << N << "までの和" << result << endl;
     return result;
