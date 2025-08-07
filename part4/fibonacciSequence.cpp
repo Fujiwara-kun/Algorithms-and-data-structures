@@ -20,5 +20,5 @@ int fibo(int N)
 
 int main()
 {
-    fibo(6);
+    fibo(3);
 }
