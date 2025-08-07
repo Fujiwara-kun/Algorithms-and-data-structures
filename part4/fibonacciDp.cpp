@@ -24,13 +24,13 @@ long long fibo(int N)
 int main()
 {
     // メモ化用配列を-1で初期化
-    memo.assign(50, -1);
+    memo.assign(5, -1);
 
     // fibo(49を呼ぶ)
     fibo(49);
 
-    // memo[0],...fibo[49]に答えが格納される
-    for (int N = 2; N < 50; N++)
+    // memo[0],...memo[49]に答えが格納される
+    for (int N = 2; N < 49; N++)
     {
         cout << N << "項目:" << memo[N] << endl;
     }
