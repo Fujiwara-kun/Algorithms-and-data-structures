@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    vector<long> F(50);
+    vector<long long> F(50);
     F[0] = 0, F[1] = 1;
     for (int N = 2; N < 50; N++)
     {
