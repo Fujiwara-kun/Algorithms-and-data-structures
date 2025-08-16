@@ -22,7 +22,7 @@ void insertionsort(int A[], int N)
         j = i - 1;
         while (j >= 0 && A[j] > v)
         {
-            A[j + 1] = A[j];
+            A[j + 1] = A[j]; // 右にシフト
             j--;
         }
         A[j + 1] = v;
