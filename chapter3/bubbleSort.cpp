@@ -20,6 +20,7 @@ int bubblesort(int A[], int N)
         }
     }
     return sw;
+    // 終わり
 }
 int main()
 {

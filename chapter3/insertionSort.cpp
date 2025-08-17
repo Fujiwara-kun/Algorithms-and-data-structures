@@ -15,7 +15,6 @@ void insertionsort(int A[], int N)
     }
     cout << endl;
     // 挿入ソートのアルゴリズム
-    //
     for (i = 1; i < N; i++)
     {
         v = A[i];
@@ -26,6 +25,7 @@ void insertionsort(int A[], int N)
             j--;
         }
         A[j + 1] = v;
+        // 終わり
         for (int k = 0; k < N; k++)
         {
             if (k > 0)
